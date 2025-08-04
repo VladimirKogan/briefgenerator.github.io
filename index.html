@@ -2,6 +2,7 @@
 <html lang="en">
 
 <head>
+    <link rel="icon" href="assets/icons/icon_tr.png" type="image/png">
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>BriefGenerator</title>
@@ -119,6 +120,11 @@
             width: 280px;
             box-shadow: 0 5px 15px rgba(0, 0, 0, 0.05);
             text-align: center;
+            transition: transform 0.3s;
+        }
+
+        .use-case-item:hover {
+            transform: translateY(-5px);
         }
 
         footer {
@@ -193,7 +199,35 @@
             </div>
         </div>
     </section>
-
+    <section class="how-it-works">
+        <h2 style="text-align:center; color:#1e3a8a">How It Works</h2>
+        <div
+            style="max-width: 1000px; margin: 40px auto; font-size: 1.05em; line-height: 1.7; color: #374151; display: grid; grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); gap: 30px; text-align: center;">
+            <div>
+                <img src="https://img.icons8.com/ios-filled/100/message-group.png" alt="Choose Message Type" width="60"
+                    height="60" />
+                <h4>1. Choose Message Type</h4>
+                <p>Select what kind of letter you need — business email, friendly message, or job application.</p>
+            </div>
+            <div>
+                <img src="https://img.icons8.com/ios-filled/100/speech-bubble.png" alt="Tone and Recipient" width="60"
+                    height="60" />
+                <h4>2. Set Tone & Recipient</h4>
+                <p>Define who you're writing to and the tone — professional, kind, creative, etc.</p>
+            </div>
+            <div>
+                <img src="https://img.icons8.com/ios-filled/100/edit.png" alt="Add Context" width="60" height="60" />
+                <h4>3. Add Context</h4>
+                <p>Briefly describe your message or provide key points you'd like included.</p>
+            </div>
+            <div>
+                <img src="https://img.icons8.com/ios-filled/100/lightning-bolt.png" alt="Generate & Review" width="60"
+                    height="60" />
+                <h4>4. Generate & Review</h4>
+                <p>Instantly get a polished draft. Copy, edit, or regenerate with a click.</p>
+            </div>
+        </div>
+    </section>
     <section class="about">
         <h2>About Us</h2>
         <p style="max-width: 700px; margin: 20px auto; font-size: 1.1em;">
